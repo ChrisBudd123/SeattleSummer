@@ -1,3 +1,3 @@
 # SeattleSummer
 
-Papers and code for the Seattle Summer School
+Papers, lectures, and code for the Seattle Summer School
