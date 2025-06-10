@@ -198,6 +198,7 @@ trainer.train(
     regularizer=False,
     training_loss=train_loss,
     eval_losses=eval_losses,
+    save_every=50,
 )
 
 if config.wandb.log and is_logger:
@@ -241,5 +242,6 @@ plt.imshow(target_img, cmap='viridis')
 plt.colorbar()
 
 plt.tight_layout()
-plt.savefig("input_prediction_truth.png")
-
+save_path = "input_prediction_truth.png"
+plt.savefig(save_path)
+print("The test result is saved to " + save_path)
