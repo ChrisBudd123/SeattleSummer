@@ -1,6 +1,13 @@
-# SeattleSummer
+# Seattle Summer
 
 Papers, lectures, Case Studies, and code for the Seattle Summer School minicourses on Scientific Machine Learning
+
+-----
+
+Chris Budd OBE, University of Bath, UK
+
+----
+
 
 Lecture 1: Introduction to Sci ML
 
